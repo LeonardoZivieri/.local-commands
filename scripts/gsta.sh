@@ -1,0 +1,1 @@
+git stash apply $(git stash list | grep $1 | head -n1 | cut -d: -f1)
